@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        applicationId "design.ws.com.MicroCarRental"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+
+        repositories {
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.github.sundeepk:compact-calendar-view:2.0.2.2'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+
+    implementation files('libs/activation.jar')
+    implementation files('libs/additionnal.jar')
+    implementation files('libs/mail.jar')
+}
+apply plugin: 'com.google.gms.google-services'

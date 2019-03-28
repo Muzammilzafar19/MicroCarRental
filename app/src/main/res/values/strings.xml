@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Micro Rent A Car</string>
+
+    <string name="food">Food &amp; Drink experiences</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="location_prompt">Choose Location</string>
+
+    <string-array name="P_location_arrays">
+        <item>PickUp Location</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Multan</item>
+        <item>Lahore</item>
+
+    </string-array>
+    <string-array name="D_location_arrays">
+        <item>Drop Location</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Multan</item>
+        <item>Lahore</item>
+
+    </string-array>
+    <string-array name="cars_arrays">
+        <item>Select Car</item>
+        <item>Grand Cabin Rs.12000 /Day</item>
+        <item>Honda Aspire Rs.4500 /Day</item>
+        <item>Honda City Rs.4000 /Day</item>
+        <item>Honda Civic Rs.6000 /Day</item>
+        <item>Honda Civic Rs.10,000 /Day</item>
+        <item>Land Crosier Rs.25,000 /Day</item>
+        <item>Mercedes Benz. s class Rs.100000 /Day</item>
+        <item>Parado Rs.16000 /Day</item>
+
+    </string-array>
+
+
+</resources>

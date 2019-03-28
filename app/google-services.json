@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "101746342636",
+    "firebase_url": "https://micro-rent-a-car.firebaseio.com",
+    "project_id": "micro-rent-a-car",
+    "storage_bucket": "micro-rent-a-car.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101746342636:android:5009d8f677094e49",
+        "android_client_info": {
+          "package_name": "design.ws.com.MicroCarRental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101746342636-jg460i29u21cu13cjdj7g48gui0o198b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAutg0c7HE5-PZEjx9MqoZtzXzZ9efKi0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

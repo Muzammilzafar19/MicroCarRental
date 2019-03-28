@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/nav_first_fragment"
+
+android:icon="@drawable/aboutus"
+
+            android:title="About Us" />
+
+
+
+        <item
+
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/contactus"
+
+            android:title="Contact Us" />
+        <item
+
+            android:id="@+id/whstsappchat"
+            android:icon="@drawable/whatsapp"
+
+            android:title="WhatsApp Chat" />
+
+    </group>
+    <item android:title="Our Services"
+
+        >
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/cfw" android:title="Cars for Wedding Ceremony" />
+                <item android:id="@+id/vft" android:title="Tours vehicles" />
+                <item android:id="@+id/elc" android:title="Exotic and Luxury Cars" />
+
+
+
+            </group>
+
+        </menu>
+
+    </item>
+</menu>
